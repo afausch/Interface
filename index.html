@@ -50,7 +50,7 @@
 </div>
 <div>
     <div>
-        <h3>OUR SERVICES</h3>
+        <h3>OUR <span>SERVICES</span></h3>
         <h4>&quot;Asperiores ea commodi eius a quo omnis esse&quot;</h4>
         <img src="Images/divider_black.png" />
     </div>
@@ -253,21 +253,23 @@
         <img src="Images/divider_black.png" />
     </div>
     <div>
-        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-        <div class="row">
-		  <label for="name">Name</label><br />
-		  <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-	</div>
-        <div class="row">
-		  <label for="email">E-mail</label><br />
-		  <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+        <form action="#" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Carlos Shorter" id=name />
         </div>
-	<div class="row">
-		<label for="message">Message</label><br />
-		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-	</div>
-	<input id="submit_button" type="submit" value="Send" />
-        </form>				
+        <div>
+            <label for="mail">E-mail</label>
+            <input type="email" placeholder="shotercarlos@gmail.com" id=email />
+        </div>
+        <div>
+            <label for="msg">Message</label>
+            <textarea id="msg" placeholder="Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you."></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Send</button>
+        </div>
+        </form>	 
     </div>
 </div>
 <footer>
