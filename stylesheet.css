@@ -1,0 +1,109 @@
+.navbar {
+    background-color: #acd373;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #f7f7f7;
+    font-weight: bold;
+    box-shadow: rgba(0,0,0,0.06) -2px 4px 0px 0px;
+    overflow: hidden;
+}
+
+.logo {
+    float:left;
+    margin-left: 10px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #f7f7f7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #789350;
+}
+
+li a.active {
+    text-decoration: underline;
+}
+
+.firstsection {
+    background-color: #9abd67;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #f7f7f7;
+}
+
+h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Droid Serif", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h3 {
+    text-align: left;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    color: #454545;
+    font-weight: normal;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Droid Serif", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #454545;
+    font-weight: normal;
+}
+
+.bodycopy {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.bodycopy.dark {
+    color: #454545;
+}
+
+.bodycopy.light {
+    color: #f7f7f7;
+}
+
+a.firstbutton {
+    font-family: "Droid Serif", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #acd373;
+    font-weight: normal;
+    text-decoration: none;
+    border: 1px solid #acd373;
+}
