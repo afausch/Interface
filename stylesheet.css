@@ -1,3 +1,12 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #9abd67;
+    box-shadow: rgba(0,0,0,0.06) 0px 4px 0px 0px; 
+}
+
 .navbar {
     background-color: #acd373;
     font-family: "Source Sans Pro", sans-serif;
@@ -5,20 +14,20 @@
     font-size: 18px;
     color: #f7f7f7;
     font-weight: bold;
-    box-shadow: rgba(0,0,0,0.06) -2px 4px 0px 0px;
     overflow: hidden;
 }
 
 .logo {
     float:left;
     margin-left: 10px;
+    padding: 10px;
 }
 
 ul {
     float: right;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
 }
 
@@ -52,6 +61,8 @@ h1, h2 {
 }
 
 h1 {
+    margin-top: 4px;
+    padding-top: 68px;
     font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-size: 48px;
