@@ -8,7 +8,7 @@ nav img {
     vertical-align: middle;
 }
 nav a {
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
     font-size: 18px;
     color: #f7f7f7;
@@ -40,13 +40,13 @@ header h1 {
     padding-top: 230px;
     color: #f7f7f7;
     font-size: 48px;
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
 }
 header h2 {
     margin-top: 30px;
     font-size: 24px;
-    font-family: "DroidSerif";
+    font-family: "Droid Serif", sans-serif;
     font-style: italic;
     color: #f7f7f7;
 }
@@ -55,6 +55,46 @@ header a {
     display: block;
 }
 
+.about {
+    padding-top: 230px;
+    height: 575px;
+    background-image: url("Images/iphone.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #454545;
+}
+.inline {
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+h3 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    color: #454545;
+    font-weight: normal;
+}
+.about p {
+    width: 767px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.linkButton {
+    text-decoration: none;
+    text-align: center; 
+    color: #acd373;
+    font-family: "Droid Serif", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    border: 1px solid #acd373;
+    padding: 9px 20px;
+    display: inline-block;
+}
 
 /*
 h3 {
