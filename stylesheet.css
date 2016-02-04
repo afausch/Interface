@@ -95,6 +95,7 @@ h3 {
     padding: 9px 20px;
     display: inline-block;
 }
+
 .video {
     height: 519px;
     background-image: url("Images/students.jpg");
@@ -107,29 +108,41 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/*
-h3 {
-    text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
-    font-style: normal;
-    font-size: 30px;
-    color: #454545;
-    font-weight: normal;
-}
 
-.left {
+.services {
+    text-align: center;
+    margin-top: 75px;
+    height: 734px;
+}
+.services img {
+    vertical-align: top;
+    margin-right: 3px;
+}
+.services li {
+    display: inline-block;
+    width: 363px;
+    height: 97px;
+    padding: 10px;
+    margin-top: 50px;
     text-align: left;
 }
-
-.green {
+.services li div {
+    display: inline-block;
+}
+.services span {
     color: #acd373;
 }
-
-.white {
-    color: #f7f7f7;
+.services p {
+    text-align: top;
+    width: 282px;
+    margin-top: 15px;
 }
-
+.services a {
+    margin-top: 50px;
+}
 h4 {
+    margin-top: 25px;
+    margin-bottom: 25px;
     text-align: center;
     font-family: "Droid Serif", sans-serif;
     font-style: normal;
@@ -138,27 +151,83 @@ h4 {
     font-weight: normal;
 }
 
-.bodycopy {
+.team {
+    text-align: center;
+    padding-top: 50px;
+    height: 643px;
+    background-color: #acd373;
+}
+.whiteFont {
+    color: #f7f7f7;
+}
+.profilePic {
+    border-radius: 50%;
+    border: 5px solid #acd373;
+    margin-top: -25%;
+}
+h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #acd373;
+    font-weight: bold;
+}
+.team p {
+    margin-bottom: 50px;
+    font-family: "Droid Serif", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #787878;
+    font-weight: normal;
+}
+.team li {
+    display: inline-block;
+    background-color: #f7f7f7;
+    width: 270px;
+    height: 250px;
+    margin-top: 100px;
+}
+.team li div {
+    background-color: #ebebeb;
+    width: 270px;
+    height: 72px;
+}
+.team a {
+    padding: 5px;
+    margin-top: 5px;
+}
+.arrowLeft {
+    display: block;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -15px;
+}
+.arrowRight {
+    display: block;
+    position: absolute;
+    margin-top: 200px;
+    margin-right: -15px;
+}
+.hiring {
+    text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-size: 18px;
-    font-weight: normal;
-}
-
-.bodycopy.dark {
-    color: #454545;
-}
-
-.bodycopy.light {
     color: #f7f7f7;
+    height: 100px;
+    background-color: #9abd67;
+    padding-top: 50px;
 }
-
-a.firstbutton {
+.hiringLink {
+    text-decoration: none;
+    text-align: center; 
+    color: #f7f7f7;
     font-family: "Droid Serif", sans-serif;
     font-style: italic;
     font-size: 18px;
-    color: #acd373;
-    font-weight: normal;
-    text-decoration: none;
-    border: 1px solid #acd373;
-}*/
+    border: 1px solid #f7f7f7;
+    padding: 9px 20px;
+    display: inline;
+}
