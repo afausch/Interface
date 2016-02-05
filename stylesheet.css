@@ -273,3 +273,19 @@ h6 {
     color: #787878;
     margin-top: 5px;
 }
+.logos {
+    height: 118px;
+    line-height: 118px;
+    background-color: #ebebeb;
+}
+.logos ul {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 75px;
+}
+.logos li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 50px;
+    margin-left: 20px;
+}
