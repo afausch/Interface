@@ -193,10 +193,12 @@ h5 {
     background-color: #ebebeb;
     width: 270px;
     height: 72px;
+    line-height: 72px;
 }
 .team a {
+    display: inline-block;
     padding: 5px;
-    margin-top: 5px;
+    vertical-align: middle;
 }
 .arrowLeft {
     display: block;
@@ -208,26 +210,28 @@ h5 {
     display: block;
     position: absolute;
     margin-top: 200px;
-    margin-right: -15px;
+    margin-left: 1160px;
 }
 .hiring {
     text-align: center;
+    height: 100px;
+    background-color: #9abd67;
+    padding-top: 75px;
+}
+.hiring p {
     font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #f7f7f7;
-    height: 100px;
-    background-color: #9abd67;
-    padding-top: 50px;
+    display: inline-block;
+    padding-right: 30px;
 }
-.hiringLink {
+.hiring a {
     text-decoration: none;
-    text-align: center; 
-    color: #f7f7f7;
     font-family: "Droid Serif", sans-serif;
     font-style: italic;
     font-size: 18px;
+    color: #f7f7f7;
     border: 1px solid #f7f7f7;
     padding: 9px 20px;
-    display: inline;
 }
