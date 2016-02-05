@@ -112,7 +112,7 @@ h3 {
 .services {
     text-align: center;
     margin-top: 75px;
-    height: 734px;
+    height: 634px;
 }
 .services img {
     vertical-align: top;
@@ -234,4 +234,42 @@ h5 {
     color: #f7f7f7;
     border: 1px solid #f7f7f7;
     padding: 9px 20px;
+}
+.works {
+    text-align: center;
+    margin-top: 75px;
+    height: 1100px;
+}
+.works img {
+    vertical-align: top;
+}
+.works li {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.works li div {
+    background-color: #ebebeb;
+    height: 100px;
+}
+.works span {
+    color: #acd373;
+}
+h6 {
+    padding-top: 25px; 
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    color: #454545; 
+}
+.works p {
+    font-family: "Droid Serif", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: normal;
+    color: #787878;
+    margin-top: 5px;
 }
