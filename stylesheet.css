@@ -98,15 +98,12 @@ h3 {
 
 .video {
     height: 519px;
-    background-image: url("Images/students.jpg");
-    background-repeat: no-repeat;
-    position: relative;
+    line-height: 519px;
+    background: url("Images/students.jpg") no-repeat top center;
+    text-align: center;
 }
 .video a {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    vertical-align: middle;
 }
 
 .services {
