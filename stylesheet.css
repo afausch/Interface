@@ -282,3 +282,154 @@ h6 {
     padding-top: 10px;
     vertical-align: middle;
 }
+.testimonials {
+    height: 550px;
+    background: url("Images/testimonials.jpg") no-repeat center;
+}
+.testimonials .container > div {
+    display: inline-block;
+    width: 30%;
+    padding-right: 25px;
+}
+.testimonials h3 {
+    color: #f7f7f7;
+    text-align: left;
+    padding-bottom: 41px;
+}
+.testimonials p {
+    text-align: left;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: normal;
+    color: #f7f7f7;
+    width: 309px;
+    padding-bottom: 50px;
+}
+.quote {
+    font-family: "Droid Serif", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    color: #f7f7f7;
+}
+.testimonials button {
+    text-decoration: none;
+    text-align: center; 
+    color: #acd373;
+    background-color: transparent;
+    font-family: "Droid Serif", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    border: 1px solid #acd373;
+    padding: 9px 20px;
+    display: inline-block;
+}
+.testimonials a {
+    text-decoration: none;
+    color: #f7f7f7;
+    font-family: "Droid Serif", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+}
+.testimonialsPic {
+    border-radius: 50%;
+}
+.testimonialsContact {
+    display: inline-block;
+}
+.testimonials blockquote {
+    padding: 20px;
+}
+.testimonials .quotebox {
+    padding-bottom: 100px;
+    margin-top: 80px;
+    background-image: url("Images/testimonials_quote-box.png");
+    background-repeat: no-repeat;
+}
+.blog {
+    text-align: center;
+    padding-top: 70px;
+    height: 690px;
+}
+.blogIcon {
+    border-radius: 50%;
+    border: 5px solid #ebebeb;
+    background-color: #acd373;
+    padding: 10px;
+    margin-top: -30px;
+    margin-bottom: 17px;
+}
+.blog p {
+    text-align: center;
+    font-family: "Sources Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 18.35px;
+    width: 270px;
+    height: 60px;
+    margin-bottom: 8px;
+}
+.blog li {
+    display: inline-block;
+    background-color: #ebebeb;
+    width: 270px;
+    height: 336px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.blog li div {
+    background-color: #acd373;
+    width: 270px;
+    height: 50px;
+    line-height: 50px;
+}
+.blog a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Droid Serif", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #f7f7f7;
+}
+.newsletter {
+    text-align: center;
+    height: 90px;
+    background-color: #9abd67;
+    padding-top: 45px;
+}
+.newsletter p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #f7f7f7;
+    display: inline-block;
+    padding-right: 30px;
+}
+.newsletter form {
+    display: inline-block;
+}
+.email {
+    font-family: "Droid Serif", sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    width: 178px;
+    height: 30px;
+    border: 1px solid #f7f7f7;
+    background-color: #9abd67;
+    vertical-align: middle;
+}
+input::-webkit-input-placeholder {
+    color: #f7f7f7;
+}
+.newsletter button {
+    background-color: #f7f7f7;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    border: none;
+    height: 34px;
+}
+.newsletter button:hover {
+    cursor: pointer;
+}
