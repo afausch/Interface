@@ -288,8 +288,13 @@
       function initMap() {
         var mapDiv = document.getElementById('map');
         var map = new google.maps.Map(mapDiv, {
-          center: {lat: 41.256, lng: -95.943},
-          zoom: 8
+            center: {lat: 41.256, lng: -95.943},
+            zoom: 13
+        });
+        var marker = new google.maps.Marker({
+            position: {lat: 41.2565556, lng: -95.94125},
+            map: map,
+            icon: "Images/mapMarker.png"
         });
       }
     </script>
