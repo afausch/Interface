@@ -499,3 +499,23 @@ textarea::-webkit-input-placeholder {
 .contact button:hover {
     cursor: pointer;
 }
+footer {
+    height: 70px;
+    background-color: #9abd67;
+    width: 100%;
+    padding-top: 35px;
+}
+footer p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #f7f7f7;
+    display: inline-block;
+    margin-left: 150px;
+    padding-right: 750px;
+}
+footer a {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+}
