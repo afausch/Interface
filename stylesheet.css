@@ -433,3 +433,7 @@ input::-webkit-input-placeholder {
 .newsletter button:hover {
     cursor: pointer;
 }
+#map {
+    height: 500px;
+    width: 100%;
+}

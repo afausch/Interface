@@ -283,6 +283,18 @@
             <button type="submit"><img src="Images/icon_email.png" /></button>
         </form>
     </div>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 41.256, lng: -95.943},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
 <!--
 
 
