@@ -113,26 +113,38 @@ h3 {
 }
 .services img {
     vertical-align: top;
-    margin-right: 3px;
 }
 .services li {
     display: inline-block;
-    width: 363px;
+    width: 372px;
     height: 97px;
-    padding: 10px;
     margin-top: 50px;
     text-align: left;
 }
 .services li div {
     display: inline-block;
 }
-.services span {
+.services h3 span {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 30px;
     color: #acd373;
+    font-weight: normal;
+}
+.services span {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #acd373;
+    font-weight: bold;
 }
 .services p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 18px;
     text-align: top;
-    width: 282px;
-    margin-top: 15px;
+    width: 283px;
+    margin-top: 8px;
 }
 .services a {
     margin-top: 50px;
@@ -276,42 +288,34 @@ h6 {
     line-height: 118px;
     background-color: #ebebeb;
 }
-.logos ul {
+.logos a {
     display: inline-block;
-    margin-left: 75px;
-    padding-top: 10px;
     vertical-align: middle;
+    padding-top: 20px;
+    padding-right: 50px;
 }
 .testimonials {
     height: 550px;
     background: url("Images/testimonials.jpg") no-repeat center;
 }
-.testimonials .container > div {
+.testimonialsIntro {
     display: inline-block;
-    width: 30%;
-    padding-right: 25px;
+    padding-top: 120px;
 }
 .testimonials h3 {
     color: #f7f7f7;
     text-align: left;
-    padding-bottom: 41px;
 }
 .testimonials p {
-    text-align: left;
     font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
-    font-size: 18px;
     font-weight: normal;
+    font-size: 18px;
     color: #f7f7f7;
     width: 309px;
+    text-align: left;
+    padding-top: 50px;
     padding-bottom: 50px;
-}
-.quote {
-    font-family: "Droid Serif", sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    font-weight: normal;
-    color: #f7f7f7;
 }
 .testimonials button {
     text-decoration: none;
@@ -328,6 +332,18 @@ h6 {
 .testimonials button:hover {
     cursor: pointer;
 }
+.testimonials span {
+    font-family: "Droid Serif", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    color: #f7f7f7;
+    display: block;
+    width: 369px;
+    height: 144px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
 .testimonials a {
     text-decoration: none;
     color: #f7f7f7;
@@ -337,18 +353,23 @@ h6 {
 }
 .testimonialsPic {
     border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.testimonials .container > div {
+    display: inline-block;
+    padding-right: 25px;
+}
+.testimonialsQuoteBox {
+    background-image: url("Images/testimonials_quote-box.png");
+    background-repeat: no-repeat;
 }
 .testimonialsContact {
     display: inline-block;
 }
-.testimonials blockquote {
-    padding: 20px;
-}
-.testimonials .quotebox {
-    padding-bottom: 100px;
-    margin-top: 80px;
-    background-image: url("Images/testimonials_quote-box.png");
-    background-repeat: no-repeat;
+.carousel {
+    margin-top: 75px;
+    margin-left: 700px;
 }
 .blog {
     text-align: center;
@@ -421,6 +442,7 @@ h6 {
     border: 1px solid #f7f7f7;
     background-color: #9abd67;
     vertical-align: middle;
+    padding-left: 5px;
 }
 input::-webkit-input-placeholder {
     color: #f7f7f7;
