@@ -123,6 +123,8 @@ h3 {
 }
 .services li div {
     display: inline-block;
+    height: 84px;
+    overflow: hidden;
 }
 .services h3 span {
     font-family: "Source Sans Pro", sans-serif;
@@ -142,7 +144,6 @@ h3 {
     font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-size: 18px;
-    text-align: top;
     width: 283px;
     margin-top: 8px;
 }
