@@ -1,3 +1,9 @@
+.check {
+    position: absolute;
+    opacity: 0.3;
+    top: 0;
+    right: 38px;
+}
 nav {
     background-color: #acd373;
     height: 106px;
@@ -6,6 +12,7 @@ nav {
 }
 nav img {
     vertical-align: middle;
+    margin-left: -14px;
 }
 nav a {
     font-family: "Source Sans Pro", sans-serif;
@@ -14,7 +21,7 @@ nav a {
     color: #f7f7f7;
     text-decoration: none;
     text-transform: uppercase;
-    margin: 0 14px;
+    margin: 0 12px;
 }
 nav a:hover {
     text-decoration: underline;
@@ -37,14 +44,14 @@ header {
     background-position: bottom center;
 }
 header h1 {
-    padding-top: 230px;
+    padding-top: 222px;
     color: #f7f7f7;
     font-size: 48px;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
 }
 header h2 {
-    margin-top: 30px;
+    margin-top: 21px;
     font-size: 24px;
     font-family: "Droid Serif", sans-serif;
     font-style: italic;
@@ -55,45 +62,47 @@ header a {
     display: block;
 }
 
-.about {
-    padding-top: 230px;
-    height: 575px;
-    background-image: url("Images/iphone.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    font-family: "Source Sans Pro", sans-serif;
-    font-style: normal;
-    font-size: 18px;
+.who {
+    padding: 90px 0;
+    font-family: "Source Sans Pro";
     color: #454545;
 }
-.inline {
-    display: inline-block;
-    padding-right: 10px;
+.who h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 10px;
+
+}
+.who h3 img {
+    margin-right: 20px;
     vertical-align: middle;
 }
-h3 {
-    text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
-    font-style: normal;
-    font-size: 30px;
-    color: #454545;
-    font-weight: normal;
+.who p {
+    font-size: 18px;
 }
-.about p {
-    width: 767px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+.who p + p {
+    margin-top: 30px;
 }
 .linkButton {
-    text-decoration: none;
-    text-align: center; 
-    color: #acd373;
-    font-family: "Droid Serif", sans-serif;
-    font-style: italic;
-    font-size: 18px;
     border: 1px solid #acd373;
-    padding: 9px 20px;
+    color: #acd373;
+    font-family: "DroidSerif";
+    font-style: italic;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
     display: inline-block;
+    margin-top: 45px;
+}
+.who .container div {
+    width: 769px;
+    display: inline-block;
+    vertical-align: top;
+}
+.who .container > img {
+    display: inline-block;
+    margin-left: 140px;
 }
 
 .video {
@@ -102,36 +111,49 @@ h3 {
     background: url("Images/students.jpg") no-repeat top center;
     text-align: center;
 }
-.video a {
+.video img {
     vertical-align: middle;
 }
 
 .services {
     text-align: center;
     margin-top: 75px;
-    height: 634px;
+    height: 663px;
 }
-.services img {
-    vertical-align: top;
+h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    color: #454545;
+    font-weight: normal;
+    padding-top: 21px;
+}
+.services h3 span {
+    font-size: 30px;
+    color: #acd373;
+    font-weight: normal;
+}
+h4 {
+    font-family: "Droid Serif", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #454545;
+    font-weight: normal;
+    margin-top: 13px;
+    margin-bottom: 16px;
+    text-align: center;
 }
 .services li {
+    padding-right: 15px;
     display: inline-block;
     width: 372px;
-    height: 97px;
-    margin-top: 50px;
+    margin-top: 82px;
     text-align: left;
 }
 .services li div {
     display: inline-block;
     height: 84px;
     overflow: hidden;
-}
-.services h3 span {
-    font-family: "Source Sans Pro", sans-serif;
-    font-style: normal;
-    font-size: 30px;
-    color: #acd373;
-    font-weight: normal;
 }
 .services span {
     font-family: "Source Sans Pro", sans-serif;
@@ -148,23 +170,14 @@ h3 {
     margin-top: 8px;
 }
 .services a {
-    margin-top: 50px;
-}
-h4 {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    text-align: center;
-    font-family: "Droid Serif", sans-serif;
-    font-style: normal;
-    font-size: 18px;
-    color: #454545;
-    font-weight: normal;
+    vertical-align: middle;
+    margin-top: 64px;
 }
 
 .team {
     text-align: center;
-    padding-top: 50px;
-    height: 643px;
+    padding-top: 74px;
+    height: 580px;
     background-color: #acd373;
 }
 .whiteFont {
@@ -185,7 +198,7 @@ h5 {
     font-weight: bold;
 }
 .team p {
-    margin-bottom: 50px;
+    margin-bottom: 33px;
     font-family: "Droid Serif", sans-serif;
     font-style: italic;
     font-size: 16px;
@@ -195,9 +208,10 @@ h5 {
 .team li {
     display: inline-block;
     background-color: #f7f7f7;
-    width: 270px;
-    height: 250px;
+    width: 256px;
+    height: 263px;
     margin-top: 100px;
+    padding-right: 33px;
 }
 .team li div {
     background-color: #ebebeb;
@@ -214,19 +228,19 @@ h5 {
     display: block;
     position: absolute;
     margin-top: 200px;
-    margin-left: -15px;
+    margin-left: -125px;
 }
 .arrowRight {
     display: block;
     position: absolute;
     margin-top: 200px;
-    margin-left: 1160px;
+    margin-left: 1265px;
 }
 .hiring {
     text-align: center;
-    height: 100px;
+    height: 66px;
     background-color: #9abd67;
-    padding-top: 75px;
+    padding-top: 44px;
 }
 .hiring p {
     font-family: "Source Sans Pro", sans-serif;
@@ -248,17 +262,19 @@ h5 {
 .works {
     text-align: center;
     margin-top: 75px;
-    height: 1100px;
+    height: 1073px;
 }
 .works img {
     vertical-align: top;
 }
+.works ul {
+    padding-top: 59px;
+}
 .works li {
+    margin-bottom: 15px;
     display: inline-block;
-    padding: 5px;
-    margin-top: 40px;
+    padding: 6px;
     text-align: center;
-    margin-bottom: 40px;
 }
 .works li div {
     background-color: #ebebeb;
@@ -293,7 +309,7 @@ h6 {
     display: inline-block;
     vertical-align: middle;
     padding-top: 20px;
-    padding-right: 50px;
+    padding-right: 19px;
 }
 .testimonials {
     height: 550px;
@@ -315,8 +331,8 @@ h6 {
     color: #f7f7f7;
     width: 309px;
     text-align: left;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 51px;
 }
 .testimonials button {
     text-decoration: none;
@@ -374,8 +390,8 @@ h6 {
 }
 .blog {
     text-align: center;
-    padding-top: 70px;
-    height: 690px;
+    padding-top: 86px;
+    height: 604px;
 }
 .blogIcon {
     border-radius: 50%;
@@ -419,9 +435,9 @@ h6 {
 }
 .newsletter {
     text-align: center;
-    height: 90px;
+    height: 66px;
     background-color: #9abd67;
-    padding-top: 45px;
+    padding-top: 38px;
 }
 .newsletter p {
     font-family: "Source Sans Pro", sans-serif;
@@ -465,7 +481,7 @@ input::-webkit-input-placeholder {
 }
 .contact {
     text-align: center;
-    height: 750px;
+    height: 683px;
     background-color: #acd373;
     padding-top: 70px;
 }
@@ -476,7 +492,7 @@ input::-webkit-input-placeholder {
 .form {
     display: block;
     width: 570px;
-    margin-top: 50px;
+    margin-top: 33px;
     font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-size: 18px;
@@ -488,7 +504,7 @@ input::-webkit-input-placeholder {
     font-family: "Droid Serif", sans-serif;
     font-style: italic;
     font-size: 15px;
-    width: 570px;
+    width: 557px;
     background-color: #9abd67;
     border: none;
     padding-left: 10px;
@@ -498,8 +514,8 @@ input::-webkit-input-placeholder {
     height: 42px; 
 }
 .fieldLarge {
-    height: 160px;
-    padding-top: 10px;
+    height: 136px;
+    padding-top: 22px;
 }
 textarea::-webkit-input-placeholder {
     color: #f7f7f7;
@@ -513,11 +529,11 @@ textarea::-webkit-input-placeholder {
     font-style: italic;
     font-size: 18px;
     border: none;
-    padding: 9px 20px;
+    padding: 9px 35px;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 46px;
     float: right;
-    margin-right: 290px;
+    margin-right: 300px;
 }
 .contact button:hover {
     cursor: pointer;
@@ -534,11 +550,11 @@ footer p {
     font-size: 18px;
     color: #f7f7f7;
     display: inline-block;
-    margin-left: 150px;
-    padding-right: 750px;
+    margin-left: 277px;
+    padding-right: 550px;
 }
 footer a {
     display: inline-block;
     vertical-align: middle;
-    padding-right: 5px;
+    padding-right: 3px;
 }
