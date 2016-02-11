@@ -1,0 +1,233 @@
+@media all and (max-width: 360px) {
+    nav {
+        height: auto;
+    }
+    nav .right a {
+        display: none;
+    }
+    header {
+        height: auto;
+    }
+    header h1 {
+        padding-top: 123px;
+        font-size: 20px;
+    }
+    header h2 {
+        font-size: 13px;
+    }
+    header a {
+        margin-top: 56px;
+        padding-bottom: 123px;
+    }
+    .who {
+        padding: 45px 0;
+    }
+    .who h3 {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+    .who p {
+        font-size: 13px;
+    }
+    .who p + p {
+        display: none;
+    }
+    .linkButton {
+        font-size: 11px;
+        margin-top: 26px;
+    }
+    .who .container div {
+        width: auto;
+    }
+    .who .container > img {
+        position: relative;
+        left: 25%;
+    }
+    .video {
+        height: auto;
+    }
+    .video img {
+        max-width: 100%;
+        height: auto;
+    }
+    .services {
+        height: auto;
+        margin-top: 43px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .services h3 span {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .services li {
+        width: auto;
+        margin-top: 34px;
+    }
+    .services li:nth-child (1) {
+        display: none;
+    }
+    .services li img {
+        max-width: 100%;
+        height: auto;
+    }
+    .services li div {
+        height: auto;
+    }
+    .services span {
+        font-size: 14px;
+    }
+    .services p {
+        font-size: 13px;
+        width: auto;
+    }
+    .services a {
+        margin-top: 45px;
+    }
+    .team {
+        height: auto;
+        padding-top: 46px;
+    }
+    h5 {
+        font-size: 14px;
+    }
+    .team p {
+        font-size: 12px;
+    }
+    .team li {
+        width: auto;
+        height: auto;
+    }
+    .team li div {
+        width: auto;
+        height: auto;
+    }
+    .hiring {
+        height: auto;
+        padding-top: 26px;
+    }
+    .hiring p {
+        font-size: 13px;
+    }
+    .hiring a {
+        font-size: 11px;
+    }
+    .works {
+        margin-top: 54px;
+        height: auto;
+    }
+    .works img {
+        max-width: 100%;
+    }
+    .works ul {
+        padding-top: 28px;
+    }
+    works li div {
+        height: auto;
+    }
+    h6 {
+        font-size: 14px;
+    }
+    .works p {
+        font-size: 12px;
+    }
+    .logos {
+        height: auto;
+    }
+    .logos a {
+        padding-top: 10px;
+    }
+    .logos a:nth-child (1) {
+        display: none;
+    }
+    .logos img {
+        max-width: 100%;
+    }
+    .testimonials {
+        height: auto;
+    }
+    .testimonialsIntro {
+        padding-top: 60px;
+    }
+    .testimonials p {
+        font-size: 13px;
+        padding-bottom: 27px;
+    }
+    .testimonials button {
+        font-size: 11px;
+    }
+    .blog {
+        padding-top: 54px;
+        height: auto;
+    }
+    .blog p {
+        font-size: 10.85px;
+        width: auto;
+        height: auto;
+    }
+    .blog li {
+        width: auto;
+        height: auto;
+    }
+    .blog li div {
+        width: auto;
+        height: auto;
+    }
+    .blog a {
+        font-size: 8.28px;
+    }
+    .newsletter {
+        height: auto;
+        padding-top: 26px;
+    }
+    .newsletter p {
+        font-size: 12px;
+    }
+    .email {
+        font-size: 8.54px;
+        width: auto;
+        height: auto;
+    }
+    .newsletter button {
+        height: auto;
+    }
+    #map {
+        height: auto;
+        width: auto;
+    }
+    .contact {
+        height: auto;
+        padding-top: 30px;
+    }
+    .form {
+        width: auto;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .fieldSmall, .fieldLarge {
+        font-size: 11px;
+        width: auto;
+    }
+    .fieldSmall {
+        height: auto;
+    }
+    .fieldLarge {
+        height: auto;
+    }
+    .contact button {
+        font-size: 12px;
+        margin-top: 26px;
+    }
+    footer {
+        height: auto;
+        width: auto;
+        padding-top: 17px;
+    }
+    footer p {
+        font-size: 13px;
+    }
+}
