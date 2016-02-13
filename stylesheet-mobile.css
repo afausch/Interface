@@ -1,12 +1,22 @@
 @media all and (max-width: 360px) {
+    nav .logos {
+        #logo-1 { display: none; }
+        #logo-2 { display: block; } 
+    }
     nav {
         height: auto;
     }
+/*
+    nav img {
+        display: none;
+    }
+*/
     nav .right a {
         display: none;
     }
     header {
         height: auto;
+        background-image: url("Images/skyline-mobile.png");
     }
     header h1 {
         padding-top: 123px;
@@ -38,6 +48,7 @@
     }
     .who .container div {
         width: auto;
+        margin-left: 10px;
     }
     .who .container > img {
         position: relative;
@@ -45,10 +56,7 @@
     }
     .video {
         height: auto;
-    }
-    .video img {
-        max-width: 100%;
-        height: auto;
+        background: url("Images/students-mobile.jpg") no-repeat top center;
     }
     .services {
         height: auto;
@@ -68,7 +76,7 @@
         width: auto;
         margin-top: 34px;
     }
-    .services li:nth-child (1) {
+    .services li:nth-of-type(n+4) {
         display: none;
     }
     .services li img {
@@ -91,6 +99,9 @@
     .team {
         height: auto;
         padding-top: 46px;
+    }
+    .team li:nth-of-type(n+2) {
+        display: none;
     }
     h5 {
         font-size: 14px;
