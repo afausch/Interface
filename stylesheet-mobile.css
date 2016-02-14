@@ -86,6 +86,7 @@
     h4 {
         font-size: 12px;
         margin-top: 3px;
+        margin-bottom: 6px;
     }
     .services li {
         width: auto;
@@ -95,22 +96,23 @@
         display: none;
     }
     .services li img {
-        max-width: 100%;
-        height: auto;
+        vertical-align: middle;
     }
     .services li div {
         height: auto;
+        vertical-align: middle;
     }
     .services span {
         font-size: 14px;
     }
     .services p {
         font-size: 13px;
-        width: auto;
+        width: 213px;
     }
     .services a {
         margin-top: 45px;
     }
+    
     .team {
         height: auto;
         padding-top: 46px;
