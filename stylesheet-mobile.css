@@ -1,19 +1,24 @@
-@media all and (max-width: 360px) {
-    nav .logos {
-        #logo-1 { display: none; }
-        #logo-2 { display: block; } 
+@media all and (min-width: 361px) {
+    #mobileMenu {
+        display: none;
     }
+}
+@media all and (max-width: 360px) {
+    #siteLogoImage, #arrowDown, #playIcon {
+        transform: scale(0.5);
+    }
+    #manIcon, #iphone {
+        transform: scale(0.75);
+    }
+    
     nav {
         height: auto;
+        line-height: 0;
     }
-/*
-    nav img {
+    #regularMenu {
         display: none;
     }
-*/
-    nav .right a {
-        display: none;
-    }
+    
     header {
         height: auto;
         background-image: url("Images/skyline-mobile.png");
@@ -29,38 +34,48 @@
         margin-top: 56px;
         padding-bottom: 123px;
     }
+    
     .who {
-        padding: 45px 0;
+        padding: 0;
     }
     .who h3 {
         font-size: 18px;
-        margin-bottom: 24px;
+        margin-bottom: auto;
+    }
+    .who h3 img {
+        margin-right: auto;
     }
     .who p {
         font-size: 13px;
     }
     .who p + p {
         display: none;
+        margin-top: auto;
     }
     .linkButton {
         font-size: 11px;
-        margin-top: 26px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .who .container div {
         width: auto;
         margin-left: 10px;
     }
     .who .container > img {
-        position: relative;
-        left: 25%;
+        display: block;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
     }
+    
     .video {
-        height: auto;
+        height: 263px;
+        line-height: 263px;
         background: url("Images/students-mobile.jpg") no-repeat top center;
     }
     .services {
         height: auto;
-        margin-top: 43px;
+        margin-top: auto;
     }
     h3 {
         font-size: 18px;
