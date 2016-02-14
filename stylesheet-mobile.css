@@ -7,7 +7,7 @@
     #siteLogoImage, #arrowDown, #playIcon {
         transform: scale(0.5);
     }
-    #manIcon, #iphone {
+    #manIcon, #iphone, #profilePic {
         transform: scale(0.75);
     }
     
@@ -73,6 +73,7 @@
         line-height: 263px;
         background: url("Images/students-mobile.jpg") no-repeat top center;
     }
+    
     .services {
         height: auto;
         margin-top: auto;
@@ -115,35 +116,44 @@
     
     .team {
         height: auto;
-        padding-top: 46px;
+        padding-top: 37px;
     }
     .team li:nth-of-type(n+2) {
         display: none;
     }
     h5 {
         font-size: 14px;
+        margin-top: 0;
     }
     .team p {
         font-size: 12px;
+        margin-bottom: 17px;
+    }
+    .team ul {
+        padding-bottom: 40px;
     }
     .team li {
-        width: auto;
         height: auto;
+        margin-top: 60px;
+        padding-right: 0px;
     }
     .team li div {
         width: auto;
-        height: auto;
     }
-    .hiring {
-        height: auto;
-        padding-top: 26px;
+    .arrowLeft {
+        margin-top: 150px;
     }
+    .arrowRight {
+        margin-top: 150px;
+    }
+
     .hiring p {
         font-size: 13px;
     }
     .hiring a {
         font-size: 11px;
     }
+    
     .works {
         margin-top: 54px;
         height: auto;
@@ -163,6 +173,7 @@
     .works p {
         font-size: 12px;
     }
+    
     .logos {
         height: auto;
     }
@@ -175,6 +186,7 @@
     .logos img {
         max-width: 100%;
     }
+    
     .testimonials {
         height: auto;
     }
@@ -188,6 +200,7 @@
     .testimonials button {
         font-size: 11px;
     }
+    
     .blog {
         padding-top: 54px;
         height: auto;
@@ -208,6 +221,7 @@
     .blog a {
         font-size: 8.28px;
     }
+    
     .newsletter {
         height: auto;
         padding-top: 26px;
@@ -223,10 +237,12 @@
     .newsletter button {
         height: auto;
     }
+    
     #map {
         height: auto;
         width: auto;
     }
+    
     .contact {
         height: auto;
         padding-top: 30px;
@@ -250,6 +266,7 @@
         font-size: 12px;
         margin-top: 26px;
     }
+    
     footer {
         height: auto;
         width: auto;
