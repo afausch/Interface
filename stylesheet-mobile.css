@@ -158,6 +158,12 @@
         margin-top: 54px;
         height: auto;
     }
+    .works li:nth-of-type(-n+2) {
+        display: none;
+    }
+    .works li:nth-last-of-type(-n+2) {
+        display: none;
+    }
     .works img {
         max-width: 100%;
     }
