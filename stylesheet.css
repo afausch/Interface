@@ -301,7 +301,6 @@ h6 {
     display: inline-block;
     vertical-align: middle;
     padding-top: 20px;
-    padding-right: 19px;
 }
 .testimonials {
     height: 550px;
@@ -533,8 +532,15 @@ textarea::-webkit-input-placeholder {
 footer {
     height: 70px;
     background-color: #9abd67;
-    width: 100%;
     padding-top: 35px;
+}
+footer .container > div {
+    float: right;
+}
+footer a {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 3px;
 }
 footer p {
     font-family: "Source Sans Pro", sans-serif;
@@ -542,11 +548,6 @@ footer p {
     font-size: 18px;
     color: #f7f7f7;
     display: inline-block;
-    margin-left: 277px;
-    padding-right: 550px;
-}
-footer a {
-    display: inline-block;
-    vertical-align: middle;
-    padding-right: 3px;
+    padding-top: 15px;
+    float: left;
 }

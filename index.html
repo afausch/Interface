@@ -35,7 +35,7 @@
     </header>
       <div class="who">
         <div class="container">
-        <img id="iphone" src="Images/iphone.png" alt/>
+        <img src="Images/iphone.png" alt/>
           <div>
             <h3><img id="manIcon" src="Images/icon_man.png" alt/> Who We Are</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quam in omnis voluptates, optio architecto doloremque eius, nihil, error nemo cum ad consequuntur numquam saepe quibusdam nam dolore sunt aliquam. Modi, ut error voluptas iure, nemo, est.</p>
@@ -45,12 +45,12 @@
         </div>
       </div>
     <div class="video">
-        <a href="#"><img id="playIcon" src="Images/icon_play.png" alt="Play Video"/></a>
+        <a href="#"><img src="Images/icon_play.png" alt="Play Video"/></a>
     </div>
     <div class="container services">
         <h3>OUR <span>SERVICES</span></h3>
         <h4>&quot;Asperiores ea commodi eius a quo omnis esse&quot;</h4>
-        <img src="Images/divider_black.png" />
+        <img id="divider" src="Images/divider_black.png" />
         <ul>
             <li>
                 <img src="Images/services_graphic-design.png" />
@@ -103,7 +103,7 @@
         <div class="container">
             <h3 class="whiteFont">MEET OUR AMAZING TEAM</h3>
             <h4 class="whiteFont">&quot;Asperiores ea commodi eius a quo omnis esse&quot;</h4> 
-            <img src="Images/divider_white.png" />
+            <img id="divider" src="Images/divider_white.png" />
             <img class="arrowLeft" src="Images/arrow_left.png" />
             <img class="arrowRight" src="Images/arrow_right.png" />
             <ul>
@@ -160,7 +160,7 @@
     <div class="container works">
         <h3>OUR RECENT <span>WORKS</span></h3>
         <h4>&quot;Asperiores ea commodi eius a quo omnis esse&quot;</h4>
-        <img src="Images/divider_black.png" />
+        <img id="divider" src="Images/divider_black.png" />
         <ul>
             <li>
                 <img src="Images/works_game-development.jpg" />
@@ -223,7 +223,7 @@
                     <a href="#">smashmagazine.com</a>
                 </div>
             </div>
-            <div>
+            <div id="nextWebHide">
                 <span class="testimonialsQuoteBox">ipsam animi autem nulla dolore vitae qui labore mollitia velit excepturi suscipit. Labri sam, explicabo corporis labore dolore</span>
                 <img class="testimonialsPic" src="Images/testimonial_client2.jpg" />
                 <div class="testimonialsContact">    
@@ -238,10 +238,10 @@
         <div class="container">
             <h3>BLOG</h3>
             <h4>&quot;Asperiores ea commodi eius a quo omnis esse&quot;</h4>
-            <img src="Images/divider_black.png" />
+            <img id="divider" src="Images/divider_black.png" />
             <ul>
                 <li>
-                    <img src="Images/blog-image1_web.jpg" />
+                    <img id="blogMobile" src="Images/blog-image1_web.jpg" />
                     <img class="blogIcon" src="Images/blog-icon1_earth.png" />
                     <p>Web Design Fundamental</p>
                     <div>
@@ -249,7 +249,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="Images/blog-image2_apps.jpg" />
+                    <img id="blogMobile" src="Images/blog-image2_apps.jpg" />
                     <img class="blogIcon" src="Images/blog-icon2_iphone.png" />
                     <p>Native Apps VS Web Apps, What is the better choice?</p>
                     <div>
@@ -257,7 +257,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="Images/blog-image3_ui-ux.jpg" />
+                    <img id="blogMobile" src="Images/blog-image3_ui-ux.jpg" />
                     <img class="blogIcon" src="Images/blog-icon3_monitor.png" />
                     <p>Not UI vs UX, It&#39;s UI &amp; UX</p>
                     <div>
@@ -265,7 +265,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="Images/blog-image4_tips.jpg" />
+                    <img id="blogMobile" src="Images/blog-image4_tips.jpg" />
                     <img class="blogIcon" src="Images/blog-icon4_graph.png" />
                     <p>5 Quick Tips to get approved from Gogle Adsense</p>
                     <div>
@@ -283,7 +283,7 @@
         </form>
     </div>
     <div id="map"></div>
-    <script>
+    <script class="marker">
       function initMap() {
         var mapDiv = document.getElementById('map');
         var map = new google.maps.Map(mapDiv, {
@@ -302,7 +302,7 @@
     <div class="contact">
         <div class="container">
             <h3>CONTACT</h3>
-            <img src="Images/divider_white.png" />
+            <img id="divider" src="Images/divider_white.png" />
             <form action="#" method="post">
                 <div class="form">
                     <label for="name">Name</label><br>
@@ -321,7 +321,8 @@
         </div>
     </div>
     <footer>
-        <p>&#169; Copyright 2014. Allright Reserved</p>
+        <div class="container">
+        <div>
         <a href="#"><img src="Images/footer_facebook.png" /></a>
         <a href="#"><img src="Images/footer_twitter.png" /></a>
         <a href="#"><img src="Images/footer_you-tube.png" /></a>
@@ -330,6 +331,8 @@
         <a href="#"><img src="Images/footer_devianta.png" /></a>
         <a href="#"><img src="Images/footer_instagram.png" /></a>
         <a href="#"><img src="Images/footer_linkedin.png" /></a>
+        </div>
+        <p>&#169; Copyright 2014. Allright Reserved</p>
     </footer>
 </body>
 </html>

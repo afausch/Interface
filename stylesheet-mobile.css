@@ -4,13 +4,15 @@
     }
 }
 @media all and (max-width: 360px) {
-    #siteLogoImage, #arrowDown, #playIcon {
-        transform: scale(0.5);
-    }
-    #manIcon, #iphone, #profilePic {
+    #profilePic {
         transform: scale(0.75);
     }
-    
+    #siteLogoImage {
+        width: 75px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-left: 10px;
+    }
     nav {
         height: auto;
         line-height: 0;
@@ -21,7 +23,7 @@
     
     header {
         height: auto;
-        background-image: url("Images/skyline-mobile.png");
+        background-size: cover;
     }
     header h1 {
         padding-top: 123px;
@@ -34,9 +36,17 @@
         margin-top: 56px;
         padding-bottom: 123px;
     }
+    #arrowDown {
+        width: 27px;
+    }
     
     .who {
         padding: 0;
+    }
+    #manIcon {
+        width: 28px;
+        padding-bottom: 10px;
+        padding-right: 10px;
     }
     .who h3 {
         font-size: 18px;
@@ -55,28 +65,35 @@
     .linkButton {
         font-size: 11px;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+        padding: 8px 15px;
     }
     .who .container div {
-        width: auto;
-        margin-left: 10px;
+        width: 301px;
+        margin-left: 20px;
     }
     .who .container > img {
         display: block;
         float: none;
         margin-right: auto;
         margin-left: auto;
+        width: 80px;
+        padding-top: 30px;
     }
     
     .video {
-        height: 263px;
-        line-height: 263px;
-        background: url("Images/students-mobile.jpg") no-repeat top center;
+        height: auto;
+        line-height: 0;
+        background-size: cover;
+        padding-top: 98px;
+    }
+    .video img {
+        width: 70px;
     }
     
     .services {
         height: auto;
-        margin-top: auto;
+        margin-top: 30px;
     }
     h3 {
         font-size: 18px;
@@ -89,6 +106,9 @@
         margin-top: 3px;
         margin-bottom: 6px;
     }
+    #divider {
+        width: 80px;
+    }
     .services li {
         width: auto;
         margin-top: 34px;
@@ -98,6 +118,7 @@
     }
     .services li img {
         vertical-align: middle;
+        height: 60px;
     }
     .services li div {
         height: auto;
@@ -121,24 +142,37 @@
     .team li:nth-of-type(n+2) {
         display: none;
     }
+    .profilePic {
+        width: 100px;
+    }
     h5 {
         font-size: 14px;
-        margin-top: 0;
+        margin-top: 10px;
     }
     .team p {
         font-size: 12px;
         margin-bottom: 17px;
     }
     .team ul {
-        padding-bottom: 40px;
+        padding-bottom: 70px;
     }
     .team li {
-        height: auto;
+        width: 201px;
+        height: 131px;
         margin-top: 60px;
         padding-right: 0px;
     }
     .team li div {
-        width: auto;
+        width: 201px;
+        height: 52px;
+        line-height: 52px;
+    }
+    .team li div img {
+        width: 23px;
+    }
+    .team a {
+        padding: 2px;
+        padding-top: 5px;
     }
     .arrowLeft {
         margin-top: 150px;
@@ -147,15 +181,21 @@
         margin-top: 150px;
     }
 
+    .hiring {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     .hiring p {
         font-size: 13px;
     }
     .hiring a {
         font-size: 11px;
+        padding: 8px 9px
     }
     
     .works {
-        margin-top: 54px;
+        margin-top: 34px;
         height: auto;
     }
     .works li:nth-of-type(-n+2) {
@@ -164,13 +204,19 @@
     .works li:nth-last-of-type(-n+2) {
         display: none;
     }
+    .works h3 {
+        padding-bottom: 5px;
+    }
+    .works h4 {
+        padding-bottom: 5px;
+    }
     .works img {
-        max-width: 100%;
+        width: 300px;
     }
     .works ul {
         padding-top: 28px;
     }
-    works li div {
+    .works li div {
         height: auto;
     }
     h6 {
@@ -178,51 +224,81 @@
     }
     .works p {
         font-size: 12px;
+        padding-bottom: 20px;
     }
     
     .logos {
-        height: auto;
+        height: 80px;
+        line-height: 80px;
     }
     .logos a {
         padding-top: 10px;
     }
-    .logos a:nth-child (1) {
-        display: none;
+    .logos a img {
+        width: 142px;
     }
-    .logos img {
-        max-width: 100%;
+    .logos a:nth-of-type(n+3) {
+        display: none;
     }
     
     .testimonials {
         height: auto;
     }
     .testimonialsIntro {
-        padding-top: 60px;
+        padding-top: 0;
     }
     .testimonials p {
         font-size: 13px;
-        padding-bottom: 27px;
+        padding-top: 10px;
+        padding-bottom: 25px;
     }
     .testimonials button {
         font-size: 11px;
     }
+    .testimonials span {
+        font-size: 12px;
+        width: auto;
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .testimonials a {
+        font-size: 12px;
+    }
+    #nextWebHide {
+        display: none;
+    }
     
     .blog {
-        padding-top: 54px;
+        padding-top: 44px;
         height: auto;
+        padding-bottom: 50px;
+    }
+    #blogMobile {
+        width: 160px;
+    }
+    .blogIcon {
+        width: 26px;
+        height: 27px;
+        padding: 3px;
+        margin-top: -25px;
+        margin-bottom: 8px;
     }
     .blog p {
         font-size: 10.85px;
         width: auto;
         height: auto;
+        padding-bottom: 10px;
     }
     .blog li {
-        width: auto;
-        height: auto;
+        width: 160px;
+        height: 173px;
+        margin-top: 25px;
+        margin-right: 5px;
     }
     .blog li div {
-        width: auto;
-        height: auto;
+        width: 160px;
+        height: 30px;
+        line-height: 30px;
     }
     .blog a {
         font-size: 8.28px;
@@ -234,51 +310,80 @@
     }
     .newsletter p {
         font-size: 12px;
+        padding-right: 0;
+    }
+    .newsletter form {
+        padding-bottom: 20px;
     }
     .email {
         font-size: 8.54px;
         width: auto;
-        height: auto;
+        height: 27px;
     }
     .newsletter button {
         height: auto;
     }
     
     #map {
-        height: auto;
-        width: auto;
+        height: 130px;
+        width: 360px;
+    }
+    .marker img {
+        width: 10px;
     }
     
     .contact {
         height: auto;
         padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .contact h3 {
+        padding-bottom: 3px;
     }
     .form {
         width: auto;
+        margin-top: 16px;
         font-size: 14px;
-        margin-left: 5px;
+        margin-left: 25px;
     }
     .fieldSmall, .fieldLarge {
         font-size: 11px;
-        width: auto;
+        width: 302px;
     }
     .fieldSmall {
-        height: auto;
+        height: 25px;
     }
     .fieldLarge {
-        height: auto;
+        height: 60px;
+        padding-top: 10px;
     }
     .contact button {
         font-size: 12px;
+        padding: 9px 95px;
         margin-top: 26px;
+        float: none;
+        margin-right: 0;
     }
     
     footer {
-        height: auto;
-        width: auto;
-        padding-top: 17px;
+        height: 70px;
+        padding-top: 20px;
+        padding-bottom: 120px;
+        text-align: center;
+    }
+    footer .container > div {
+        float: none;
+        display: block;
+        padding-top: 10px;
+    }
+    footer .container div img {
+        width: 27px;
     }
     footer p {
         font-size: 13px;
+        float: none;
+    }
+    footer a {
+        
     }
 }
