@@ -256,45 +256,40 @@
         padding-top: 0;
         order: 3;
     }
-    .testimonials h3 {
-        padding-left: 30px;
-    }
     .testimonials p {
         font-size: 13px;
-        width: 270px;
-        padding-left: 30px;
         padding-bottom: 30px;
     }
     .testimonials button {
         font-size: 11px;
-        margin-left: 30px;
     }
     .testimonialsContact {
         order: 1;
     }
     .testimonials span {
         font-size: 12px;
-        width: auto;
-        height: auto;
-        padding-top: 0;
-        padding-left: 0;
+        width: 280px;
+        height: 100px;
     }
     .testimonials a {
         font-size: 12px;
     }
     .testimonialsPic {
-        width: 67px;
-        margin-right: 25px;
-        margin-left: 37px;
+        width: 85px;
     }
     .testimonials .container > div {
-        padding-right: 0;
+        margin-left: 30px;
+        padding-top: 50px;
+    }
+    .testimonialsQuoteBox {
+        background-size: 300px, 7px;
     }
     .carousel {
         margin-top: 0;
         margin-left: 150px;
         order: 2;
-        width: 50px;
+        width: 45px;
+        height: 12px;
     }
     #nextWebHide {
         display: none;
