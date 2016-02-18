@@ -173,6 +173,9 @@ h4 {
     height: 580px;
     background-color: #acd373;
 }
+.team .container {
+    position: relative;
+}
 .whiteFont {
     color: #f7f7f7;
 }
@@ -218,16 +221,14 @@ h5 {
 .arrowLeft {
     display: block;
     position: absolute;
-    margin-top: 200px;
-/*    margin-left: -125px;*/
-    margin-left: -55px;
+    top: 312px;
+    left: -100px;
 }
 .arrowRight {
     display: block;
     position: absolute;
-    margin-top: 200px;
-/*    margin-right: -125px;*/
-    margin-right: 55px;
+    top: 312px;
+    right: -100px;
 }
 .hiring {
     text-align: center;
