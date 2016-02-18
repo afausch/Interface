@@ -36,6 +36,7 @@ header {
     background-image: url("Images/skyline.png");
     background-repeat: no-repeat;
     background-position: bottom center;
+    background-size: 100% auto;
 }
 header h1 {
     padding-top: 222px;
@@ -198,16 +199,14 @@ h5 {
     font-weight: normal;
 }
 .team li {
+    margin-right: 10px;
     display: inline-block;
     background-color: #f7f7f7;
     width: 256px;
-    height: 263px;
     margin-top: 100px;
-    padding-right: 33px;
 }
 .team li div {
     background-color: #ebebeb;
-    width: 289px;
     height: 72px;
     line-height: 72px;
 }
@@ -220,13 +219,15 @@ h5 {
     display: block;
     position: absolute;
     margin-top: 200px;
-    margin-left: -125px;
+/*    margin-left: -125px;*/
+    margin-left: -55px;
 }
 .arrowRight {
     display: block;
     position: absolute;
     margin-top: 200px;
-    margin-right: -125px;
+/*    margin-right: -125px;*/
+    margin-right: 55px;
 }
 .hiring {
     text-align: center;
@@ -301,6 +302,7 @@ h6 {
     display: inline-block;
     vertical-align: middle;
     padding-top: 20px;
+    padding-right: 50px;
 }
 .testimonials {
     height: 550px;

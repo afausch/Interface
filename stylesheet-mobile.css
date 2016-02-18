@@ -23,7 +23,7 @@
     
     header {
         height: auto;
-        background-size: cover;
+        background-size: 175% auto;
     }
     header h1 {
         padding-top: 123px;
@@ -82,10 +82,9 @@
     }
     
     .video {
-        height: auto;
-        line-height: 0;
-        background-size: cover;
-        padding-top: 98px;
+        height: 262px;
+        line-height: 262px;
+        background-image: url("Images/students-mobile.jpg");
     }
     .video img {
         width: 70px;
@@ -233,6 +232,7 @@
     }
     .logos a {
         padding-top: 10px;
+        padding-right: 15px;
     }
     .logos a img {
         width: 142px;
@@ -243,14 +243,16 @@
     
     .testimonials {
         height: auto;
+        background-size: cover;
     }
     .testimonialsIntro {
         padding-top: 0;
     }
     .testimonials p {
         font-size: 13px;
-        padding-top: 10px;
-        padding-bottom: 25px;
+        width: auto;
+        padding-top: 0;
+        padding-bottom: 0;
     }
     .testimonials button {
         font-size: 11px;
@@ -258,11 +260,23 @@
     .testimonials span {
         font-size: 12px;
         width: auto;
+        height: auto;
         padding-top: 0;
         padding-left: 0;
     }
     .testimonials a {
         font-size: 12px;
+    }
+    .testimonialsPic {
+        width: 85px;
+        margin-right: 0;
+    }
+    .testimonials .container > div {
+        padding-right: 0;
+    }
+    .carousel {
+        margin-top: 0;
+        margin-left: 0;
     }
     #nextWebHide {
         display: none;
@@ -286,8 +300,8 @@
     .blog p {
         font-size: 10.85px;
         width: auto;
-        height: auto;
-        padding-bottom: 10px;
+        height: 0;
+        padding-bottom: 36px;
     }
     .blog li {
         width: 160px;
