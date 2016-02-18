@@ -174,10 +174,12 @@
         padding-top: 5px;
     }
     .arrowLeft {
-        margin-top: 150px;
+        top: 190px;
+        left: 18px;
     }
     .arrowRight {
-        margin-top: 150px;
+        top: 190px;
+        right: 46px;
     }
 
     .hiring {
@@ -244,18 +246,31 @@
     .testimonials {
         height: auto;
         background-size: cover;
+        padding-bottom: 30px;
+    }
+    .testimonials .container {
+        display: flex;
+        flex-direction: column;
     }
     .testimonialsIntro {
         padding-top: 0;
+        order: 3;
+    }
+    .testimonials h3 {
+        padding-left: 30px;
     }
     .testimonials p {
         font-size: 13px;
-        width: auto;
-        padding-top: 0;
-        padding-bottom: 0;
+        width: 270px;
+        padding-left: 30px;
+        padding-bottom: 30px;
     }
     .testimonials button {
         font-size: 11px;
+        margin-left: 30px;
+    }
+    .testimonialsContact {
+        order: 1;
     }
     .testimonials span {
         font-size: 12px;
@@ -268,15 +283,18 @@
         font-size: 12px;
     }
     .testimonialsPic {
-        width: 85px;
-        margin-right: 0;
+        width: 67px;
+        margin-right: 25px;
+        margin-left: 37px;
     }
     .testimonials .container > div {
         padding-right: 0;
     }
     .carousel {
         margin-top: 0;
-        margin-left: 0;
+        margin-left: 150px;
+        order: 2;
+        width: 50px;
     }
     #nextWebHide {
         display: none;

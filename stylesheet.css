@@ -202,13 +202,15 @@ h5 {
     font-weight: normal;
 }
 .team li {
-    margin-right: 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 30px;
     display: inline-block;
     background-color: #f7f7f7;
     width: 256px;
     margin-top: 100px;
 }
 .team li div {
+    border-radius: 0px 0px 10px 10px;
     background-color: #ebebeb;
     height: 72px;
     line-height: 72px;
