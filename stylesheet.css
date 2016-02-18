@@ -224,13 +224,13 @@ h5 {
     display: block;
     position: absolute;
     top: 312px;
-    left: -100px;
+    left: -73px;
 }
 .arrowRight {
     display: block;
     position: absolute;
     top: 312px;
-    right: -100px;
+    right: -49px;
 }
 .hiring {
     text-align: center;
@@ -305,7 +305,7 @@ h6 {
     display: inline-block;
     vertical-align: middle;
     padding-top: 20px;
-    padding-right: 50px;
+    padding-right: 20px;
 }
 .testimonials {
     height: 550px;
